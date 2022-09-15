@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hijo{
+    background-color: crimson;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+}
