@@ -1,0 +1,57 @@
+.cabecera{
+    background-color: blueviolet;
+    text-align: center;
+    border: 1px dashed black;
+    height: 30vh;
+    
+}
+body{
+    font-size: 14px; 
+}
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pie{
+    background-color: #ccc;
+    min-height: 40px;
+    text-align: center;
+    border: 1px dashed black;
+    height: 30vh;
+
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    height: 30vh;
+    width: auto;
+    border: 1px dashed black;
+    
+}
+
+.contenido{
+    padding: 0 10px;
+    
+}
+h2{
+    text-align: center;
+    background-color: burlywood;
+    height: 40vh;
+    width: 60vw;
+    text-align: center;
+    border: 1px dashed black;
+    display: inline-block;
+
+}
+h3{
+    background-color: aquamarine;
+    height: 40vh;
+    width: 37vw;
+    text-align: center;
+    border: 1px dashed black;
+    display: inline-block;
+}
+.g2{
+    display: flex;
+}

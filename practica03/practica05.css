@@ -1,0 +1,17 @@
+div {
+    border: 10px dashed blue;
+    height: 20vh;
+    box-sizing: border-box;/*  ESTA LINEA SIRVE PARA OMITIR LA LINA QUE 
+    QUE ESTA COMENTADA EN LA PARTE DE ABAJO*/
+    
+}
+
+*{
+    margin: 0%;
+
+}
+/* 
+ESTO ES POR QUE TENEMOS AL INICIAR UN VALOR POR DEFECTO Y SE LO INICIALIZAMOS EN 0
+html,body{
+   height: 100%;
+} */
