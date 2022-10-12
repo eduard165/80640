@@ -43,7 +43,7 @@ function cambiarTodoFondo(color) {
 
 // colores mediante un ciclo for loops.
 function cambiarColores(color) {
-    let x = document.getElementsByTagName("p");
+    let xx = document.getElementsByTagName("p");
     // para los divs se ocupan desde 0 indican la cantidad de divs dependiendo el orden en el codigo es como va su #
     // x[0].style.color = color;
     // let x =document.getElementsByTagName("p");
@@ -51,8 +51,19 @@ function cambiarColores(color) {
     //     x[i].style.color = color; 
     // }
     // ejemplod e for each
-    var arr = [].slice.call(x);
-    arr.forEach(element => {
-        console.log(element);
-    });
+    var arr = [].slice.call(xx);
+    // arr.forEach(element => {
+    //     console.log(element);
+    // });
+    // for (let i in xx){
+    //     if(i < xx.length){
+    //         xx[i].style.color = color;
+    //         i++;
+    //     }
+    // }
+    for (const i in xx) {
+        if (Object.hasOwnProperty.call(xx, i)) {
+           xx[i].style.color = color;
+        }
+    }
 }
