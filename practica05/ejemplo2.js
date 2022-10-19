@@ -87,3 +87,24 @@ function buscar4() {
         }
     }
 }
+function x(params){
+    if(event.key == 'Enter'){
+        AGREGAR();
+    }
+}
+function buscar5(){
+    listaTodo = document.getElementsByTagName("li");
+    for(let tarea in listaTodo){
+        if (Object.hasOwnProperty.call(todo, tarea)) {
+            const element = todo[tarea].childNodes[0];
+            alert(tarea.innerHTML);
+        
+        a = listaTodo[tarea].childNodes[0];
+        b= document.getElementsById("label").value;
+
+        if(a == b){
+            alert(tarea.innerHTML);
+        }
+    }
+    }
+}
